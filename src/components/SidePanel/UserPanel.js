@@ -52,7 +52,7 @@ class UserPanel extends Component {
               <Dropdown
                 trigger={
                   <span>
-                    <Image src={user.photoUrl} spaced='right' avatar />
+                    <Image src={user.photoURL} spaced='right' avatar />
                     {user.displayName}
                   </span>
                 }
