@@ -1,7 +1,7 @@
-import firebase from 'firebase/app'
-import 'firebase/auth'
-import 'firebase/database'
-import 'firebase/storage'
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/database';
+import 'firebase/storage';
 
 // Your web app's Firebase configuration
 var config = {
@@ -12,8 +12,8 @@ var config = {
   storageBucket: 'kvk-slack-clone.appspot.com',
   messagingSenderId: '49260450286',
   appId: '1:49260450286:web:4d60f76a09af5b4c35beff',
-}
-// Initialize Firebase
-firebase.initializeApp(config)
+};
+// Initialize Firebase  Cloud Storage location = nam5 (us-central)
+firebase.initializeApp(config);
 
-export default firebase
+export default firebase;
